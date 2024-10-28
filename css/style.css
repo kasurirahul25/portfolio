@@ -75,7 +75,8 @@ padding-left: 5px; }
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+padding-left: 20px; }
 
 abbr[title],
 abbr[data-original-title] {
