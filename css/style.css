@@ -75,8 +75,7 @@ padding-left: 5px; }
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
-padding-left: 20px; }
+  margin-bottom: 1rem; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -8545,10 +8544,10 @@ h1, h2, h3, h4, h5,
           font-size: 60px;
           color: #fff;
           line-height: 1.2;
-          font-weight: 800; }
+          font-weight: 500; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
-            font-weight: 800;
-            color: rgb(255,187,57); }
+            font-weight: 500;
+            color: #BFA100; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
@@ -8716,32 +8715,32 @@ h1, h2, h3, h4, h5,
 .btn {
   cursor: pointer;
   -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  border-radius: 40px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 600; }
+  font-weight: 400; }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
     background: black;
-    border: 1px solid #ffbd39 !important;
-    color: white !important;
-    transition: .5s; }
+    border: 2px solid #806C00 !important;
+    color: #BABABA !important;
+    transition: .1s; }
     .btn.btn-primary:hover {
       border: 1px solid white !important;
       background: #ffbd39 !important;
       color: #000000 !important; 
       transition: .5s;}
     .btn.btn-primary.btn-outline-primary {
-      border: 2px solid #ffbd39 !important;
+      border: 3px white !important;
       background: transparent !important;
-      color: #ffbd39 !important; }
+      color: white !important; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 2px solid transparent !important;
         background: #ffbd39 !important;
