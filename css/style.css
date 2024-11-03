@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Londrina+Sketch&family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Qwitcher+Grypen:wght@400;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Orbitron:wght@400..900&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8544,10 +8548,15 @@ h1, h2, h3, h4, h5,
           font-size: 60px;
           color: #fff;
           line-height: 1.2;
-          font-weight: 500; }
+          font-weight: 200; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 500;
-            color: #c54c82; }
+            /* color: #c54c82;  */
+            color: #c54c82;
+            font-weight: 40;
+            font-style: normal;
+          font-family: "Bad Script", cursive;
+        }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
@@ -9157,7 +9166,7 @@ textarea.form-control {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
-      color: #fff; }
+      color: #2b56cb;; }
 
 .footer-small-nav > li {
   display: inline-block; }
