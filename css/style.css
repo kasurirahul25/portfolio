@@ -1,9 +1,5 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Qwitcher+Grypen:wght@400;700&family=Sofia&display=swap');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8547,14 +8543,14 @@ h1, h2, h3, h4, h5,
           font-weight: 500; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 500;
-            color: #BFA100; }
+            color: #c54c82; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 30px; } }
         .owl-carousel.home-slider .slider-item .slider-text h2 {
           font-size: 30px;
           font-weight: 400; }
@@ -8572,7 +8568,7 @@ h1, h2, h3, h4, h5,
           bordeR: 1px solid #ffbd39;
           padding: 5px 20px;
           text-transform: uppercase;
-          font-size: 12px;
+          font-size: 8px;
           letter-spacing: 3px; }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
@@ -8717,7 +8713,7 @@ h1, h2, h3, h4, h5,
   -webkit-border-radius: 40px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
-  border-radius: 30px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
@@ -8728,15 +8724,15 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: black;
-    border: 2px solid #806C00 !important;
-    color: #BABABA !important;
+    background: #AA0000;
+    border: 0px solid #806C00 !important;
+    color: #ffffff !important;
     transition: .1s; }
     .btn.btn-primary:hover {
       border: 1px solid white !important;
-      background: #ffbd39 !important;
-      color: #000000 !important; 
-      transition: .5s;}
+      background: #C6011F !important;
+      color: whitesmoke !important; 
+      transition: .10s;}
     .btn.btn-primary.btn-outline-primary {
       border: 3px white !important;
       background: transparent !important;
