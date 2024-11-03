@@ -9706,5 +9706,13 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
-
-    
+    .ftco-animate a {
+      display: inline-block;
+      color: white; /* Default icon color */
+      transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .ftco-animate a:hover {
+      color: green; /* LinkedIn blue or GitHub color, for example */
+      transform: scale(1.1); /* Slightly enlarges the icon on hover */
+  }
