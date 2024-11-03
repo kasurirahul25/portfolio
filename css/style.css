@@ -8158,7 +8158,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ffbd39; }
+  color: white; }
   a:hover, a:focus {
     text-decoration: none;
     color: #ffbd39;
@@ -8719,7 +8719,7 @@ h1, h2, h3, h4, h5,
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400; }
+  font-weight: 500; }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
@@ -8820,7 +8820,7 @@ h1, h2, h3, h4, h5,
   .resume-wrap .date {
     font-weight: 900;
     font-size: 26px;
-    color: #ffbd39; }
+    color: #FF7777; }
   .resume-wrap h2 {
     font-size: 26px; }
   .resume-wrap .position {
@@ -9420,7 +9420,7 @@ textarea.form-control {
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .contact-section .box .icon span {
-      color: #ffbd39;
+      color: whitesmoke;
       font-size: 30px; }
   .contact-section .box h3 {
     font-size: 17px;
@@ -9702,3 +9702,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+    
