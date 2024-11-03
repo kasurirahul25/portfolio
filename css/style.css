@@ -70,7 +70,8 @@ padding-left: 5px; }
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+padding: 17px; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -6565,7 +6566,8 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  padding:20px }
 
 .ml-0,
 .mx-0 {
