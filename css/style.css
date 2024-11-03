@@ -9154,14 +9154,14 @@ textarea.form-control {
     width: 50px;
     display: block;
     float: left;
-    background: rgba(255, 255, 255, 0.1);
+    background: transparent;
     border-radius: 50%;
     position: relative; }
     .ftco-footer-social li a span {
       position: absolute;
-      font-size: 26px;
-      top: 50%;
-      left: 50%;
+      font-size: 30px;
+      top: 45%;
+      left: -85%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
@@ -9720,4 +9720,11 @@ textarea.form-control {
 
 
 
-    
+  .container {
+      text-align: left;
+      color: #c54c82;;
+      font-size: 19px;
+      margin: 0;
+      margin-top: auto;
+  }
+  
