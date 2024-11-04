@@ -76,6 +76,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 padding: 10px;
+font-size: 17px;;
 margin-left:10px;
   color: whitesmoke;
   margin-bottom: 0rem; }
@@ -8238,7 +8239,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #ffbd39;
+        background:#ffffff;
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8289,7 +8290,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
     background: transparent;
     background: none;
-    color: #ffbd39; }
+    color: #c54c82; }
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
@@ -8365,7 +8366,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #ffbd39 !important; }
+        color: #c54c82 !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8806,7 +8807,8 @@ h1, h2, h3, h4, h5,
   .ftco-about ul.about-info li {
     list-style: none;
     margin-bottom: 10px; 
-  color: white;}
+    color: white;
+    font-size: 17px;}
     .ftco-about ul.about-info li span {
       width: calc(100% - 130px); }
       .ftco-about ul.about-info li span:first-child {
