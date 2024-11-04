@@ -8157,7 +8157,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color:white; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -9170,7 +9170,7 @@ textarea.form-control {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
-      color: #2b56cb;; }
+      color: var(--blue); }
 
 .footer-small-nav > li {
   display: inline-block; }
@@ -9726,7 +9726,7 @@ textarea.form-control {
 
   .container {
       text-align: left;
-      color: var(--red);
+      color: #c54c82;
       font-size: 19px;
       margin: 0;
       margin-top: auto;
