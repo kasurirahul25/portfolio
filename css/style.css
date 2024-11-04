@@ -9159,7 +9159,7 @@ textarea.form-control {
     right:50%;
     display: block;
     float: left;
-    background: var(--gray-dark);
+    background: #000000;
     border-radius: 50%;
     position: relative; }
     .ftco-footer-social li a span {
