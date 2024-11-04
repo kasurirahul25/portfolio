@@ -9155,6 +9155,8 @@ textarea.form-control {
   .ftco-footer-social li a {
     height: 40px;
     width: 40px;
+    left:26%;
+    right:50%;
     display: block;
     float: left;
     background: var(--gray-dark);

@@ -156,31 +156,34 @@
 						<script>
 
 						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
+					const typingAnimationElement = document.getElementById('typing-animation');
 
-						const typingTexts = [
-						'Skilled at Problem Solving  ',
-						'And Web Developement'
-						];
+					const typingTexts = [
+						'Skilled at Problem Solving',
+						'And Web Development'
+					];
 
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
+					// Create a function to display the typing animation for a given text
+					function playTypingAnimation(textIndex) {
+						const text = typingTexts[textIndex];
+						typingAnimationElement.textContent = ''; // Clear content before typing new text
+
 						// Loop through each character and add it to the element
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+								typingAnimationElement.textContent += text[i];
+							}, i * 200); // Adjust delay for typing speed
 						}
 
-						// Once the animation is complete, reset the text and start over
+						// Once the animation is complete, start the next text after a delay
 						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
+							playTypingAnimation((textIndex + 1) % typingTexts.length);
+						}, text.length * 200 + 1000); // 1000ms delay before starting next text
+					}
 
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
+					// Start the typing animation loop with the first text
+					playTypingAnimation(0);
+
 
 						</script>
 						<br>
@@ -432,22 +435,29 @@
 	  </div>
     </section>
 
-
-          
-	
-
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <!-- <section class="ftco-section contact-section ftco-no-pb" id="contact-section"> -->
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Contact</h1>
             <h2 class="mb-4">Contact Me</h2>
             <p>Below are the details to reach out to me!</p>
-          </div>
-        </div>
+		<div class="container">
+			
+		</div>
+		  
+				  <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					<li class="ftco-animate normal-txt"></li>
+					<li class="ftco-animate"><a href="https://www.linkedin.com/in/kasuri-rahul-9b9274290/"><span class="icon-linkedin"></span></a></li>  
+					<li class="ftco-animate"><a href="https://github.com/kasurirahul25"><span class="icon-github"></span></a></li>
+					<li class="ftco-animate"><a href="mailto:kasurirahul6@gmail.com"><span class="icon-telegram"></span></a></li>  
+					<li class="ftco-animate"><a href="tel://6303914549"><span class="icon-phone2"></span></a></li>  
+					<li class="ftco-animate"><a href="address://Hanamkonda"><span class="icon-map-signs"></span></a></li>  
 
-        <div class="row d-flex contact-info mb-5">
+				  </ul>
+		 </div>
+
+        <!-- <div class="row d-flex contact-info mb-5">
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
@@ -456,8 +466,8 @@
           		<h3 class="mb-4">Address</h3>
 	            <p>Hanamkonda, telangana</p>
 	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-phone2"></span>
@@ -465,16 +475,16 @@
           		<h3 class="mb-4">Contact Number</h3>
 	            <p><a href="tel://6303914549">+91 6303314549</a></p>
 	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
 	            <p><a href="mailto:kasurirahul6@gmail.com">kasurirahul6@gmail.com</a></p>
-	          </div>
-          </div>
+	          </div> -->
+          <!-- </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
@@ -483,22 +493,9 @@
           		<h3 class="mb-4">Download Resume</h3>
 	            <p><a href="https://drive.google.com/file/d/17W82t3Z07FWnHKowuyvnUkUYrnieHdIC/view?usp=drivesdk">resumelink</a></p>
 	          </div>
-          </div>
+          </div> -->
 
-		  <div class="container">
-			<br>
-			<br>
-
-			
-		  </div>
-			<br>
-				    <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/kasuri-rahul-9b9274290/"><span class="icon-linkedin"></span></a></li>  
-				      <li class="ftco-animate"><a href="https://github.com/kasurirahul25"><span class="icon-github"></span></a></li>
-					</ul>
-				<br>
-		   </div>
+		 
    </div>
  </section>
 
